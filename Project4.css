@@ -1,0 +1,53 @@
+body{
+    font-family:'East Sea Dokdo',cursive;
+    font-size:1.5rem;
+}
+h2{
+    font-family: 'Sedgwick Ave Display', cursive; 
+    font-size:4rem;
+}
+
+.header{
+    display:flex;
+    width:100%;
+    justify-content: flex-start;
+    align-items:center;
+}
+.header nav{
+    display:flex;
+    Justify-content: flex-end;
+    width:65%;
+    padding:2%
+}
+nav a{
+    display:flex;
+    text-decoration:none;
+    width:6rem;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-size:2rem;
+}
+nav: hover{
+
+}
+.body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/* font-family: 'East Sea Dokdo', cursive; */
+/* font-family: 'Sedgwick Ave Display', cursive; */
