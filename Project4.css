@@ -12,12 +12,12 @@ h2{
     width:100%;
     justify-content: flex-start;
     align-items:center;
+    
 }
 .header nav{
     display:flex;
     Justify-content: flex-end;
-    width:65%;
-    padding:2%
+    width:80%;
 }
 nav a{
     display:flex;
@@ -31,12 +31,47 @@ nav a{
 nav: hover{
 
 }
-.body{
+.bodyb{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:url()
+}
+.bodyb button{
+    display:flex;
+    margin-top:-2rem;
+}
+section{
+    text-align:center;
+    padding-top:5%;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding-top:5%;
+    width:100%;
+    /* border:1px solid black; */
+}
+
+img{
     display:flex;
     justify-content:center;
     align-items:center;
+    width:15rem;
+    padding:2rem;
+    /* border:1px solid black; */
 }
-
+.bodyb button{
+    background:white;
+}
+section button{
+    background:white;
+    color:red;
+}
 
 
 
