@@ -1,1 +1,156 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+*{
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+html{
+    font-size:62.5%;
+}
+    
+body{
+    font-family:'East Sea Dokdo',cursive;
+    font-size:1.6rem;
+}
+h1{
+    padding-left: 3%;
+    font-size: 4rem;
+}
+h2{
+    font-family: 'Sedgwick Ave Display', cursive; 
+    font-size:6rem;
+    padding-bottom:3rem;
+}
+.header{
+    display:flex;
+    padding-top:4%;
+    width:100%;
+    justify-content: flex-start;
+    align-items:center;
+    
+}
+.header nav{
+    display:flex;
+    Justify-content: flex-end;
+    width:80%;
+}
+nav a{
+    display:flex;
+    text-decoration:none;
+    width:13%;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-size:3rem;
+}
+.bodyb{
+    display:flex;
+    padding-top:8%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:url()
+}
+.bodyb button{
+    display:flex;
+}
+section{
+    text-align:center;
+    padding-top:5%;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding-top:6%;
+    width:100%;  
+}
+
+img{
+    display:flex;
+    width:23rem;
+    padding:4rem;   
+}
+.bodyb button{
+    background:white;
+}
+section nav{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+section nav a{
+    width:15%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Media Queries*/
+@media (max-width:800px){
+    h1{
+        font-size:3rem;
+    }
+    img{
+        width:18rem;
+    }
+    section nav a{
+        width:20%;
+    }
+}
+@media (max-width:500px){
+    h1{
+        display:none;
+    }
+    h2{
+        font-size:5rem;
+    }
+    .header nav{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding-left:11%;
+    }
+    img{
+        width:30%;
+        flex-direction: column;
+    }
+    section nav a{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/* font-family: 'East Sea Dokdo', cursive; */
+/* font-family: 'Sedgwick Ave Display', cursive; */
